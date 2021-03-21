@@ -1,0 +1,416 @@
+
+/* - - - - - GLOBAL CLASS - - - - - */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+
+
+/* - - - - - CARDS - - - - - */
+
+.card{
+    width: 20%;
+    background-color: white;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+}
+
+
+.card-header{
+    text-align: center;
+    padding: 50px 10px;
+    color: #fff;
+    
+}
+
+.card-header-img{
+    text-align: center;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-header-img img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-txt-up{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.card-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.card-body .btn{
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+}
+
+
+
+/* - - - - - PROFILE CARDS - - - - - */
+
+.card-profile{
+    width: 20%;
+    background-color: white;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+
+.card-p-body{
+    text-align: center;
+    padding: 50px 10px;
+    color: #fff;
+}
+
+
+.card-p-body img{
+    border-radius: 100%;
+    width: 50%;
+    padding-bottom: 10px;
+    
+}
+
+.card-txt-job{
+    padding-top: 5px;
+    color: gray;
+}
+
+.card-txt-desc{
+    padding-top: 5px;
+    color: black;
+    font-size: 15px;
+}
+
+.card-btn-foot{
+    
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    padding: 30px 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+}
+
+
+
+
+/* - - - - - TEXT COLORS - - - - - */
+
+.underline-none{
+    text-decoration: none;
+}
+
+.txt-dark{
+    color: black;
+}
+
+.txt-light{
+    color: white;
+}
+
+.txt-forest{
+    color:#022c15d2;
+}
+
+.txt-beach{
+    color: #ff4b2b;
+}
+
+.txt-stella{
+    color: #5b006d;
+}
+
+.txt-sally{
+    color: #ffa44f;
+}
+
+.txt-denied{
+    color: #680404d2;
+}
+
+.txt-default{
+    color: #313eb6;
+}
+
+
+/* - - - - - TEXT TYPES - - - - - */
+
+.txt-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.txt-end{
+    text-align: end;
+}
+
+/* - - - - - TEXT FONT - - - - - */
+
+
+.txt-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-sans{
+    font-family: sans-serif;
+}
+
+.txt-consola{
+    font-family: "Lucida Console", monospace;
+}
+
+/* - - - - - BACKGROUND COLORS - - - - - */
+
+.bg-beach{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+   
+}
+
+.bg-forest{
+    background: linear-gradient(to right, #17d36bd2, #022c15d2);
+}
+
+.bg-denied{
+    background: linear-gradient(to right, rgb(250, 65, 65), #680404d2);
+    
+}
+
+.bg-sally{
+    background: linear-gradient(to right, rgb(255, 243, 73), #ffa44f);
+    
+}
+
+.bg-default{
+    background: linear-gradient(to right, #3e90fc, #313eb6);
+   
+}
+
+.bg-stella{
+    background: linear-gradient(to right, #2e04a1, #5b006d);
+    
+}
+
+.bg-light{
+    background: linear-gradient(to right, rgb(255, 255, 255), #c9c9c9);
+   
+}
+
+.bg-dark{
+    background: linear-gradient(to right, rgb(83, 83, 83), #000000);
+   
+}
+
+.bg-img{
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(to right, rgb(255, 255, 255), #c9c9c9);
+
+}
+
+
+
+/* - - - - - BORDERS - - - - -*/
+
+.b-on{
+    border: 1px solid #ccc;
+}
+
+.b-off{
+    border: none;
+}
+
+.b-radius-0{
+    border-radius: 0 !important;
+}
+
+.b-radius-1{
+    border-radius: 10px;
+}
+
+.bt-radius-1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bb-radius-1{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.b-radius-2{
+    border-radius: 20px;
+}
+
+.bt-radius-2{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bb-radius-2{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.b-radius-3{
+    border-radius: 30px;
+}
+
+.bt-radius-3{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.bb-radius-3{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   RESPONSIVE  */
+
+@media screen and (max-width: 1000px){
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+    }
+
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .card-profile{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+    }
+
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card-profile{
+        width: 80%;
+    }
+}
