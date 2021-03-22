@@ -25,7 +25,7 @@ body{
 }
 
 
-.row{
+.row-cards{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -114,32 +114,36 @@ body{
 
 .card-profile{
     width: 20%;
+    height: 40%;
     background-color: white;
     margin-bottom: 50px;
     transition: 0.3s;
 }
 
 
+
 .card-p-body{
     text-align: center;
     padding: 50px 10px;
     color: #fff;
+    
 }
 
 
 .card-p-body img{
+    
     border-radius: 100%;
     width: 50%;
     padding-bottom: 10px;
     
 }
 
-.card-txt-job{
+.card-txt-sub{
     padding-top: 5px;
     color: gray;
 }
 
-.card-txt-desc{
+.card-txt-des{
     padding-top: 5px;
     color: black;
     font-size: 15px;
@@ -164,6 +168,112 @@ body{
 
 
 
+/* - - - - - WARNING CARDS - - - - - */
+
+.card-warning{
+    width: 20%;
+    height: 40%;
+    background-color: white;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card-w-header{
+    text-align: center;
+    padding: 20px 10px;
+    color: #fff;
+}
+
+.card-w-body img{
+    
+    border-radius: 100%;
+    width: 50%;
+    padding-bottom: 10px;
+    
+}
+
+.card-w-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-warning:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+}
+
+
+/* - - - - - PHOTO CARDS - - - - - */
+
+.card-photo{
+    width: 30%;
+    background-color: white;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+}
+
+.card-ph-img{
+    text-align: center;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.card-ph-foot{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-photo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+}
+
+
+/* - - - - - CONTENT CARD - - - - - */
+
+.card-content{
+    width: 50%;
+    background-color: white;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+}
+
+.card-c-header{
+    text-align: center;
+    padding: 20px 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.card-c-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.card-c-foot{
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.card-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+}
+
+
+
 
 /* - - - - - TEXT COLORS - - - - - */
 
@@ -177,6 +287,10 @@ body{
 
 .txt-light{
     color: white;
+}
+
+.txt-gray{
+    color: #c9c9c9;
 }
 
 .txt-forest{
@@ -242,43 +356,88 @@ body{
     font-family: "Lucida Console", monospace;
 }
 
-/* - - - - - BACKGROUND COLORS - - - - - */
+/* - - - - - BACKGROUND PLAIN COLORS - - - - - */
 
-.bg-beach{
+.bg-beach-pl{
+    background: #ff4b2b;
+   
+}
+
+.bg-forest-pl{
+    background:  #022c15d2;
+}
+
+.bg-denied-pl{
+    background: #680404d2;
+    
+}
+
+.bg-sally-pl{
+    background: #ffa44f;
+    
+}
+
+.bg-default-pl{
+    background:  #313eb6;
+   
+}
+
+.bg-stella-pl{
+    background: #5b006d;
+    
+}
+
+.bg-light-pl{
+    background:  white;
+   
+}
+
+.bg-dark-pl{
+    background:  #000000;
+   
+}
+
+.bg-gray-pl{
+    background: #c9c9c9;
+}
+
+/* - - - - - BACKGROUND COLORS (GRADIENTS) - - - - - */
+
+.bg-beach-gr{
     background: linear-gradient(to right, #ff416c, #ff4b2b);
    
 }
 
-.bg-forest{
+.bg-forest-gr{
     background: linear-gradient(to right, #17d36bd2, #022c15d2);
 }
 
-.bg-denied{
+.bg-denied-gr{
     background: linear-gradient(to right, rgb(250, 65, 65), #680404d2);
     
 }
 
-.bg-sally{
+.bg-sally-gr{
     background: linear-gradient(to right, rgb(255, 243, 73), #ffa44f);
     
 }
 
-.bg-default{
+.bg-default-gr{
     background: linear-gradient(to right, #3e90fc, #313eb6);
    
 }
 
-.bg-stella{
+.bg-stella-gr{
     background: linear-gradient(to right, #2e04a1, #5b006d);
     
 }
 
-.bg-light{
+.bg-light-gr{
     background: linear-gradient(to right, rgb(255, 255, 255), #c9c9c9);
    
 }
 
-.bg-dark{
+.bg-dark-gr{
     background: linear-gradient(to right, rgb(83, 83, 83), #000000);
    
 }
@@ -294,6 +453,42 @@ body{
 
 
 /* - - - - - BORDERS - - - - -*/
+
+.border-light{
+    border: 1px solid white;
+}
+.border-gray{
+    border: 1px solid #c9c9c9;
+}
+
+.border-dark{
+    border: 1px solid #000;
+}
+
+.border-sally{
+    border: 1px solid  #ffa44f;
+}
+
+.border-beach{
+    border: 1px solid  #ff4b2b;
+}
+
+.border-denied{
+    border: 1px solid  #680404d2;
+}
+
+.border-stella{
+    border: 1px solid   #5b006d;
+}
+
+.border-default{
+    border: 1px solid  #313eb6;
+}
+
+.border-forest{
+    border: 1px solid  #022c15d2;
+}
+
 
 .b-on{
     border: 1px solid #ccc;
@@ -411,6 +606,69 @@ body{
     }
 
     .card-profile{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .card-warning{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+    }
+
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card-warning{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .card-photo{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+    }
+
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card-photo{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .card-content{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+    }
+
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card-content{
         width: 80%;
     }
 }
