@@ -341,6 +341,14 @@ body{
     text-align: end;
 }
 
+.font-b{
+    font-weight: bold !important;
+}
+
+.font-i{
+    font-style: italic !important;
+}
+
 /* - - - - - TEXT FONT - - - - - */
 
 
