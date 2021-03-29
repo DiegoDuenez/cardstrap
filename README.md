@@ -1,5 +1,5 @@
 # cardstrap
 
-CSS library for card creation / Libreria de CSS para crear cards
+CSS para crear cards
 
 
