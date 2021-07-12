@@ -259,7 +259,6 @@ body{
     font-size: 18px;
 }
 
-
 .card-c-foot{
     padding: 15px 20px;
     text-align: center;
@@ -271,8 +270,6 @@ body{
     transform: scale(1.05);
     box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
 }
-
-
 
 
 /* - - - - - TEXT COLORS - - - - - */
@@ -349,8 +346,8 @@ body{
     font-style: italic !important;
 }
 
-/* - - - - - TEXT FONT - - - - - */
 
+/* - - - - - TEXT FONT - - - - - */
 
 .txt-arial{
     font-family: Arial, Helvetica, sans-serif;
@@ -363,6 +360,7 @@ body{
 .txt-consola{
     font-family: "Lucida Console", monospace;
 }
+
 
 /* - - - - - BACKGROUND PLAIN COLORS - - - - - */
 
@@ -553,12 +551,131 @@ body{
 }
 
 
+/* - - - - - ANIMATION - - - - -*/
+
+.static:hover{
+    transform: none;
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+}
 
 
 
+/* - - - - - MARGINS - - - - -*/
+
+.ml-25{
+    margin-left: 25px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.ml-100{
+    margin-left: 100px;
+}
+
+.ml-200{
+    margin-left: 200px;
+}
+
+.ml-300{
+    margin-left: 300px;
+}
+
+.ml-400{
+    margin-left: 400px;
+}
+
+.ml-500{
+    margin-left: 500px;
+}
 
 
+.mr-25{
+    margin-right: 25px;
+}
 
+.mr-50{
+    margin-right: 50px;
+}
+
+.mr-100{
+    margin-right: 100px;
+}
+
+.mr-200{
+    margin-right: 200px;
+}
+
+.mr-300{
+    margin-right: 300px;
+}
+
+.mr-400{
+    margin-right: 400px;
+}
+
+.mr-500{
+    margin-right: 500px;
+}
+
+
+.mt-25{
+    margin-top: 25px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-200{
+    margin-top: 200px;
+}
+
+.mt-300{
+    margin-top: 300px;
+}
+
+.mt-400{
+    margin-top: 400px;
+}
+
+.mt-500{
+    margin-top: 500px;
+}
+
+
+.mb-25{
+    margin-bottom: 25px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.mb-200{
+    margin-bottom: 200px;
+}
+
+.mb-300{
+    margin-bottom: 300px;
+}
+
+.mb-400{
+    margin-bottom: 400px;
+}
+
+.mb-500{
+    margin-bottom: 500px;
+}
 
 
 
@@ -650,7 +767,6 @@ body{
     .container{
         width: 100%;
     }
-
     .heading{
         padding: 20px;
         font-size: 20px;
@@ -680,3 +796,4 @@ body{
         width: 80%;
     }
 }
+
