@@ -562,6 +562,14 @@ body{
 
 /* - - - - - MARGINS - - - - -*/
 
+.ml-10{
+    margin-left: 10px;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
 .ml-25{
     margin-left: 25px;
 }
@@ -590,6 +598,14 @@ body{
     margin-left: 500px;
 }
 
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mr-15{
+    margin-right: 15px;
+}
 
 .mr-25{
     margin-right: 25px;
@@ -620,6 +636,14 @@ body{
 }
 
 
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
 .mt-25{
     margin-top: 25px;
 }
@@ -648,6 +672,14 @@ body{
     margin-top: 500px;
 }
 
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
 
 .mb-25{
     margin-bottom: 25px;
