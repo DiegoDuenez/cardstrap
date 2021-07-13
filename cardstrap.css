@@ -291,7 +291,7 @@ body{
 }
 
 .txt-forest{
-    color:#022c15d2;
+    color:rgb(8, 190, 78);
 }
 
 .txt-beach{
@@ -370,7 +370,7 @@ body{
 }
 
 .bg-forest-pl{
-    background:  #022c15d2;
+    background:  rgb(8, 190, 78);
 }
 
 .bg-denied-pl{
@@ -415,7 +415,7 @@ body{
 }
 
 .bg-forest-gr{
-    background: linear-gradient(to right, #17d36bd2, #022c15d2);
+    background: linear-gradient(to right, #17d36bd2, rgb(8, 190, 78));
 }
 
 .bg-denied-gr{
@@ -492,7 +492,7 @@ body{
 }
 
 .border-forest{
-    border: 1px solid  #022c15d2;
+    border: 1px solid  rgb(8, 190, 78);
 }
 
 
