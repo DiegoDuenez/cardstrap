@@ -362,6 +362,78 @@ body{
 }
 
 
+/* - - - - - TEXT FONT SIZES - - - - - */
+
+.txt-5{
+    font-size: 5px !important;
+}
+
+.txt-10{
+    font-size: 10px !important;
+}
+
+.txt-15{
+    font-size: 15px !important;
+}
+
+.txt-25{
+    font-size: 25px !important;
+}
+
+.txt-50{
+    font-size: 50px !important;
+}
+
+.txt-100{
+    font-size: 100px !important;
+}
+
+.txt-200{
+    font-size: 200px !important;
+}
+
+.txt-300{
+    font-size: 300px !important;
+}
+
+.txt-400{
+    font-size: 400px !important;
+}
+
+.txt-500{
+    font-size: 500px !important;
+}
+
+
+.txt-x-sm{
+    font-size: x-small !important;
+}
+
+.txt-xx-sm{
+    font-size: xx-small !important;
+}
+
+.txt-sm{
+    font-size: small !important;
+}
+
+.txt-md{
+    font-size: medium !important;
+}
+
+.txt-x-lg{
+    font-size: x-large !important;
+}
+
+.txt-xx-lg{
+    font-size: xx-large !important;
+}
+
+.txt-lg{
+    font-size: large !important;
+}
+
+
 /* - - - - - BACKGROUND PLAIN COLORS - - - - - */
 
 .bg-beach-pl{
