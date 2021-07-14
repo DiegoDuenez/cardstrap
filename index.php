@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container bg-stella-gr b-radius-1">
-        <div class="heading txt-light">
+        <div class="heading txt-light pt-100">
             <h2>Cardstrap.css</h2>
         </div>
         <div class="heading txt-light">
