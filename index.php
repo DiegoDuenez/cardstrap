@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cardstrap.css?t=<?php echo time()?>">
-    <title>Document</title>
+    <title>Cardstrap.css</title>
 </head>
 <body>
     <div class="container bg-stella-gr b-radius-1">
