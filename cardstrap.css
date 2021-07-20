@@ -837,6 +837,9 @@ body{
 
 /* - - - - - PADDINGS - - - - -*/
 
+.pt-0{
+    padding-top: 0;
+}
 
 .pt-10{
     padding-top: 10px;
@@ -879,6 +882,10 @@ body{
 }
 
 
+.pb-0{
+    padding-bottom: 0;
+}
+
 .pb-10{
     padding-bottom: 10px;
 }
@@ -920,6 +927,10 @@ body{
 }
 
 
+.pl-0{
+    padding-left: 0;
+}
+
 .pl-10{
     padding-left: 10px;
 }
@@ -960,6 +971,10 @@ body{
     padding-left: 500px;
 }
 
+
+.pr-0{
+    padding-right: 0;
+}
 
 .pr-10{
     padding-right: 10px;
