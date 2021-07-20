@@ -634,6 +634,18 @@ body{
 
 /* - - - - - MARGINS - - - - -*/
 
+.m-auto{
+    margin: auto;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+
 .ml-10{
     margin-left: 10px;
 }
@@ -674,6 +686,14 @@ body{
     margin-left: 500px;
 }
 
+
+.mr-auto{
+    margin-right: auto;
+}
+
+.mr-0{
+    margin-right: 0;
+}
 
 .mr-10{
     margin-right: 10px;
@@ -716,6 +736,14 @@ body{
 }
 
 
+.mt-auto{
+    margin-top: auto;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
 .mt-10{
     margin-top: 10px;
 }
@@ -756,6 +784,14 @@ body{
     margin-top: 500px;
 }
 
+
+.mb-auto{
+    margin-bottom: auto;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
 
 .mb-10{
     margin-bottom: 10px;
