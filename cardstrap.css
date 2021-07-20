@@ -642,6 +642,10 @@ body{
     margin-left: 15px;
 }
 
+.ml-20{
+    margin-left: 20px;
+}
+
 .ml-25{
     margin-left: 25px;
 }
@@ -677,6 +681,10 @@ body{
 
 .mr-15{
     margin-right: 15px;
+}
+
+.mr-20{
+    margin-right: 20px;
 }
 
 .mr-25{
@@ -716,6 +724,10 @@ body{
     margin-top: 15px;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
+
 .mt-25{
     margin-top: 25px;
 }
@@ -751,6 +763,10 @@ body{
 
 .mb-15{
     margin-bottom: 15px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
 }
 
 .mb-25{
@@ -794,6 +810,10 @@ body{
     padding-top: 15px;
 }
 
+.pt-20{
+    padding-top: 20px;
+}
+
 .pt-25{
     padding-top: 25px;
 }
@@ -829,6 +849,10 @@ body{
 
 .pb-15{
     padding-bottom: 15px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
 }
 
 .pb-25{
@@ -868,6 +892,10 @@ body{
     padding-left: 15px;
 }
 
+.pl-20{
+    padding-left: 20px;
+}
+
 .pl-25{
     padding-left: 25px;
 }
@@ -903,6 +931,10 @@ body{
 
 .pr-15{
     padding-right: 15px;
+}
+
+.pr-20{
+    padding-right: 20px;
 }
 
 .pr-25{
