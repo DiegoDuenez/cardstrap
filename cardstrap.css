@@ -21,7 +21,7 @@ body{
 .heading{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -315,7 +315,7 @@ body{
 }
 
 
-/* - - - - - TEXT TYPES - - - - - */
+/* - - - - - TEXT ALIGNMENTS- - - - - */
 
 .txt-justify{
     text-align: justify;
@@ -338,6 +338,8 @@ body{
     text-align: end;
 }
 
+/* - - - - - TEXT STYLES - - - - -*/
+
 .font-b{
     font-weight: bold !important;
 }
@@ -350,17 +352,40 @@ body{
 /* - - - - - TEXT FONT - - - - - */
 
 .txt-arial{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.txt-sans{
-    font-family: sans-serif;
+.txt-times{
+    font-family: 'Times New Roman', serif !important;
 }
 
 .txt-consola{
-    font-family: "Lucida Console", monospace;
+    font-family: "Lucida Console", monospace !important;
 }
 
+.txt-opens{
+    font-family: 'Open Sans ', sans-serif !important;
+}
+
+.txt-c-gothic{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+}
+
+.txt-courier{
+    font-family: 'Courier New', monospace !important;
+}
+
+.txt-brush{
+    font-family: 'Brush Script MT', cursive !important;
+}
+
+.txt-georgia{
+    font-family: Georgia, serif !important;
+}
+
+.txt-garamond{
+    font-family: Garamond, serif !important;
+}
 
 /* - - - - - TEXT FONT SIZES - - - - - */
 
@@ -376,8 +401,28 @@ body{
     font-size: 15px !important;
 }
 
+.txt-20{
+    font-size: 20px !important;
+}
+
 .txt-25{
     font-size: 25px !important;
+}
+
+.txt-30{
+    font-size: 30px !important;
+}
+
+.txt-35{
+    font-size: 30px !important;
+}
+
+.txt-40{
+    font-size: 40px !important;
+}
+
+.txt-45{
+    font-size: 45px !important;
 }
 
 .txt-50{
@@ -625,10 +670,47 @@ body{
 
 /* - - - - - ANIMATION - - - - -*/
 
-.static:hover{
-    transform: none;
-    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25);
+.shadow-off:hover{
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0) !important;
 }
+
+.shadow-on:hover{
+    box-shadow: 0 0 40px -10px rgba(0 , 0 , 0 , 0.25) !important;
+}
+
+.static:hover{
+    transform: none !important;
+
+}
+
+.contract:hover{
+    transform: scale(0.85) !important;
+}
+
+.impulse:hover{
+    transform: scale(1.05) !important;
+}
+
+.zoom:hover{
+    transform: scale(1.35) !important;
+}
+
+.up:hover{
+    transform: translateY(-20px) !important;
+}
+
+.down:hover{
+    transform: translateY(20px) !important;
+}
+
+.right:hover{
+    transform: translateX(20px) !important;
+}
+
+.left:hover{
+    transform: translateX(-20px) !important;
+}
+
 
 
 
