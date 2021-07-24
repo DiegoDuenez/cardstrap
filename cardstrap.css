@@ -340,11 +340,11 @@ body{
 
 /* - - - - - TEXT STYLES - - - - -*/
 
-.font-b{
+.txt-b{
     font-weight: bold !important;
 }
 
-.font-i{
+.txt-i{
     font-style: italic !important;
 }
 
